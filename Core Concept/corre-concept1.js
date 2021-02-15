@@ -41,10 +41,10 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 //While Loop: ----------------//
-// let i = 0;
-// while (6 >= i) {
-//     console.log("while loop");
-// }
+let i = 5;
+while (5 > i) {
+    console.log("while loop");
+}
 // console.log(numberIs); //not working after loop/
 
 
