@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Keyword</title>
+</head>
+
+<body>
+    <h1>What is "this"</h1>
+    <p onclick="this.innerText = 'clicked'">I am a Paragraph</p>
+
+    <script>
+        const myObject = {
+            name: "Kuddus",
+            getFullName: function () {
+                console.log(this);
+
+                return "Mr. " + this.name;
+            }
+        }
+        // myObject.getFullName();
+
+        const anotherOutsideObject = {
+            name: "Mohabbot"
+        }
+
+        // myObject.getFullName();
+        // anotherOutsideObject.getFullName = myObject.getFullName;
+        // // console.log(anotherOutsideObject.getFullName);
+        // anotherOutsideObject.getFullName();
+
+        function add(a, b) {
+            console.log(this);
+
+            return a + b;
+        }
+        add(12, 23)
+        anotherOutsideObject.sum = add;
+        anotherOutsideObject.sum();
+
+    </script>
+</body>
+
+</html>
