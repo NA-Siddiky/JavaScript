@@ -39,6 +39,12 @@ for (let i = 0; i < numbers.length; i++) {
     const numberIs = numbers[i];
     console.log(numberIs);
 }
+
+//While Loop: ----------------//
+// let i = 0;
+// while (6 >= i) {
+//     console.log("while loop");
+// }
 // console.log(numberIs); //not working after loop/
 
 
