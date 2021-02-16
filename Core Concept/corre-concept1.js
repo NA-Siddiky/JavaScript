@@ -39,13 +39,22 @@ for (let i = 0; i < numbers.length; i++) {
     const numberIs = numbers[i];
     console.log(numberIs);
 }
+// console.log(numberIs); //not working after loop/
 
 //While Loop: ----------------//
-let i = 5;
-while (5 > i) {
-    console.log("while loop");
-}
-// console.log(numberIs); //not working after loop/
+// let i = 0;
+// while (5 > i) {
+
+//     console.log("while loop");
+// }
+
+// var text = "";
+// var i = 0;
+// while (i < 10) {
+//     text += "<br>The number is " + i;
+//     i++;
+// }
+// console.log(i);
 
 
 //------------------ function: ------------------From line 44 to 71 //
