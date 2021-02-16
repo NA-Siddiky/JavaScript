@@ -41,20 +41,20 @@ for (let i = 0; i < numbers.length; i++) {
 }
 // console.log(numberIs); //not working after loop/
 
-//While Loop: ----------------//
+// While Loop: ----------------//
 // let i = 0;
-// while (5 > i) {
+// while (i < 5) {
 
 //     console.log("while loop");
 // }
 
-// var text = "";
-// var i = 0;
-// while (i < 10) {
-//     text += "<br>The number is " + i;
-//     i++;
-// }
-// console.log(i);
+var text = "";
+var i = 0;
+while (i < 10) {
+    text += "\nThe number is " + i;
+    i++;
+}
+console.log(text);
 
 
 //------------------ function: ------------------From line 44 to 71 //
