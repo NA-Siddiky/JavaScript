@@ -45,7 +45,7 @@ const findingWatch = products.find(element => element.name === 'watch');
 // products.forEach(element => console.log(element.id))
 
 
-// //reguler for loop//
+// //regular for loop//
 // for(i=0, i < products.length, i++;){
 //   console.log(i)
 // }
